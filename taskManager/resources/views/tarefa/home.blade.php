@@ -6,8 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <h1>WELCOME!</h1>
+
+    <h1>Página inicial - Tarefas - {{ $nome }}</h1>
+
+    <a href="{{ route('tarefa.criar') }}"><button>Criar tarefa</button></a>
 
 </body>
 </html>
